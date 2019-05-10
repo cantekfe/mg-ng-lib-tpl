@@ -5,7 +5,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 console.log("app comp", AppComponent);
 import { HelloComponent } from './hello.component';
-import { CAlarmModule } from '../../../../c-alarm/src/public_api';
 import { CEnergyChartModule } from '../../../../c-energy-chart/src/public_api';
 @NgModule({
   imports: [
@@ -13,7 +12,6 @@ import { CEnergyChartModule } from '../../../../c-energy-chart/src/public_api';
     BrowserAnimationsModule,
     FormsModule,
    
-    CAlarmModule,
     CEnergyChartModule,
     ],
 
